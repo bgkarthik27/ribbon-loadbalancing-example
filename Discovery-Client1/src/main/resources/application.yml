@@ -1,0 +1,12 @@
+logging:
+  level:
+    web: trace
+spring:
+  application:
+    name: discovery-client-1
+  mvc:
+    async:
+      request-timeout: 60000
+    
+server:
+  port: 8082

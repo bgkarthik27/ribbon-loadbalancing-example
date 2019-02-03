@@ -1,0 +1,17 @@
+logging:
+  level:
+    web: trace
+spring:
+  application:
+    name: discovery-client-2
+  mvc:
+    async:
+      request-timeout: 60000
+
+ribbon:
+  eureka:
+    enabled: true
+    
+    
+server:
+  port: 8081
